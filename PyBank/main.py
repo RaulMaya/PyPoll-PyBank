@@ -54,12 +54,14 @@ for value in Monthly_Change_List:
 
 Average_Change = (Sum_of_Monthly_Change/len(Monthly_Change_List))
 Floated_Average_Change = "{:.2f}".format(Average_Change)
+print("Financial Analysis")
+print("----------------------------------------------------------")
 print(f"Total Months: {len(Profit_Loss_List)}")
 print(f"Total: ${total_amount} ")
 print(f"Average Change: ${Floated_Average_Change}")
 print(f"Greatest Increase in Profits: {max_month}  (${max_change})")
 print(f"Greatest Decrease in Profits: {min_month}  (${min_change})")
-
+print("----------------------------------------------------------")
 results_path = os.path.join("Analysis","Results.txt")
 
 with open(results_path,"w", newline = "", encoding="utf-8") as my_txt_file:
