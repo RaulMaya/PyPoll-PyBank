@@ -1,2 +1,9 @@
-# Python-Challenge
-Homework 3: Python Challenge; Analyzing the financial records of a company using Python.
+### PyPoll & PyBank
+
+##PyPoll
+
+![PyPoll](PyPoll/Images/PyPollimg.jpg)
+
+  * Raúl Maya Salazar
+  * raulmayas20@gmail.com
+  * +52 833 1597006
